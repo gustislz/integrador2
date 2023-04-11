@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/reg.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="panel-body">
+                    <form method="POST" role="form"  name="reg">
+                        <div class="form-group">
+                            <h2>Crear Cuenta</h2>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Primer nombre</label>
+                            <input name="fn" type="text" maxlength="50" class="form-control" placeholder="First name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Apellido</label>
+                            <input name="ln" type="text" maxlength="50" class="form-control"  placeholder="Last name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Email</label>
+                            <input name="mail" type="email" maxlength="50" class="form-control"  placeholder="Email Id" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Password</label>
+                            <input name="pass" type="password" maxlength="25" class="form-control" placeholder="Password" length="40" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label"">Confirmar Password</label>
+                            <input name="pass2" type="password" maxlength="25" class="form-control"  placeholder="Confirm Password" required>
+                        </div>
+                        <div class="form-group">
+                            <button id="up" type="button" class="btn btn-info btn-block">Signup</button>
+                        </div>
+                        <p class="form-group">Creando la cuenta, aceptas nuestros <a href="#">Terminos de servicio</a> y nuestra <a href="#">Politica de privacidad</a>.</p>
+                        <hr>
+                        <p></p>Ya tenes cuenta? <a href="login.html">Logueate!</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        &copy;Ecommerce
+    </footer>
+
+       <script type="text/javascript" src="scripts/regvalid.js"></script>
+</body>
+
+</html>
